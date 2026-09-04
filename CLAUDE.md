@@ -91,9 +91,11 @@ Khi người dùng hỏi tình hình / calo hôm nay: đọc `logs/YYYY-MM-DD.md
 - Ghi chú: ...
 ```
 
-## Dành cho trợ lý chỉ đọc repo (ChatGPT qua GitHub connector…)
-- Trước khi trả lời mọi câu hỏi về ăn uống/calo/tập luyện: đọc file này + `data/foods/` (khi cần tra calo) + `logs/` của ngày hiện tại. Không trả lời từ trí nhớ.
-- Tuân thủ toàn bộ quy tắc ở trên, TRỪ các thao tác ghi file (không ghi được repo):
-  - Thay vì ghi nhật ký: cuối mỗi lần người dùng báo cáo, xuất một code block "BÁO CÁO LOG" chứa toàn bộ nội dung file nhật ký hôm nay theo đúng format chuẩn ở mục "Quản lý nhật ký" (gộp cả dữ liệu cũ trong log + phần mới báo cáo), để người dùng copy về Claude Code ghi vào repo.
-  - Thay vì bổ sung món mới vào `data/foods/`: ghi chú trong câu trả lời là món này chưa có trong bảng, kèm số liệu + nguồn vừa tra để người dùng nhờ Claude Code bổ sung.
-- Lưu ý: log trong repo có thể chưa chứa những gì người dùng vừa báo trong hội thoại hiện tại (do ghi log trễ) — khi tổng hợp phải gộp cả hai, tránh tính trùng món đã có trong log.
+## Dành cho trợ lý ngoài truy cập qua GitHub (ChatGPT…)
+- Trước khi trả lời mọi câu hỏi về ăn uống/calo/tập luyện: đọc file này + `data/foods/` (khi cần tra calo) + `logs/` của ngày hiện tại trên branch `main`. Không trả lời từ trí nhớ.
+- Tuân thủ toàn bộ quy tắc ở trên, kể cả các thao tác ghi file:
+  - Ghi/cập nhật nhật ký `logs/YYYY-MM-DD.md` đúng format chuẩn ở mục "Quản lý nhật ký", commit thẳng lên `main` với message dạng `log: YYYY-MM-DD cập nhật nhật ký`. Trước khi ghi phải đọc bản mới nhất của file để gộp, không ghi đè mất dữ liệu cũ.
+  - Món mới tra từ web → bổ sung vào file nhóm tương ứng trong `data/foods/` (message dạng `data: thêm <tên món>`).
+  - Người dùng báo thay đổi cân nặng/chỉ tiêu → cập nhật mục "Thông tin người dùng hiện tại" trong file này.
+- Sau khi ghi, xác nhận rõ với người dùng là đã commit thành công. Nếu không ghi được (lỗi quyền, lỗi API…) thì phải nói rõ và xuất code block "BÁO CÁO LOG" chứa toàn bộ nội dung file nhật ký hôm nay theo format chuẩn, để người dùng copy về Claude Code ghi thay.
+- Lưu ý chống tính trùng: log trong repo có thể đã chứa món người dùng vừa nhắc lại trong hội thoại — luôn đối chiếu trước khi cộng dồn.
