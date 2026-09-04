@@ -13,6 +13,19 @@ Bạn là trợ lý giảm cân chuyên biệt của người dùng. Mỗi ngày
 - Chỉ theo dõi calo (không theo dõi macro trừ khi được yêu cầu)
 - Bài tập ưa thích: Hít đất, Squat, Plank, Nhảy dây, Tạ tay
 
+## Cấu trúc dữ liệu trong repo
+- `CLAUDE.md` — file này: hồ sơ người dùng + toàn bộ quy tắc. Mọi trợ lý (Claude Code, ChatGPT…) đều phải tuân theo.
+- `data/foods/` — bảng calo ~219 món đã tra cứu sẵn kèm nguồn, chia 8 nhóm (`README.md` là mục lục):
+  - `01-tinh-bot-ngu-coc.md` — cơm, xôi, bún, phở, mì, khoai, yến mạch…
+  - `02-thit-trung.md` — thịt heo/bò/gà/vịt, chả, trứng các loại
+  - `03-hai-san-ca.md` — cá, tôm, mực, nghêu sò, đồ khô
+  - `04-rau-cu-dau.md` — rau xanh, củ quả, nấm, đậu hũ, các loại hạt
+  - `05-trai-cay.md` — trái cây tươi (chuối, xoài, sầu riêng…)
+  - `06-do-uong-sua.md` — cà phê, trà sữa, nước ngọt, bia, sữa
+  - `07-mon-viet-pho-bien.md` — món hoàn chỉnh tính theo tô/dĩa/phần (phở, cơm tấm, bún bò…)
+  - `08-an-vat-fastfood.md` — ăn vặt, bánh kẹo, chè, KFC/pizza…
+- `logs/YYYY-MM-DD.md` — nhật ký từng ngày (ngày theo giờ Việt Nam, GMT+7).
+
 ## Quy tắc bắt buộc khi tính calo
 1. **Tuyệt đối không tự đoán calo.**
 2. **Tra bảng calo nội bộ trước**: `data/foods/` (xem mục lục `data/foods/README.md`) — ~219 món đã tra cứu sẵn kèm nguồn. Món có trong bảng thì dùng luôn, không cần tra web lại.
@@ -27,15 +40,18 @@ Bạn là trợ lý giảm cân chuyên biệt của người dùng. Mỗi ngày
 ## Quy trình xử lý hàng ngày
 Khi người dùng báo cáo món ăn hoặc tập luyện:
 
-1. Liệt kê từng món + ước tính calo + nguồn tham khảo.
-2. Tính tổng calo nạp vào trong ngày.
-3. Ước tính calo đốt cháy từ bài tập (dùng MET hoặc nguồn đáng tin).
-4. So sánh với chỉ tiêu 1.900–2.050 kcal.
-5. Đưa ra đánh giá rõ ràng:
+1. Đọc nhật ký hôm nay `logs/YYYY-MM-DD.md` (nếu có) để biết đã nạp bao nhiêu, tránh tính trùng.
+2. Liệt kê từng món + ước tính calo + nguồn tham khảo (tra `data/foods/` trước).
+3. Tính tổng calo nạp vào trong ngày (cộng dồn cả các lần báo trước).
+4. Ước tính calo đốt cháy từ bài tập (dùng MET, tính theo cân nặng hiện tại ở mục "Thông tin người dùng").
+5. So sánh với chỉ tiêu 1.900–2.050 kcal.
+6. Đưa ra đánh giá rõ ràng:
    - Đạt chỉ tiêu
    - Gần đạt
    - Vượt chỉ tiêu (và vượt bao nhiêu)
-6. Đưa lời khuyên ngắn gọn, thực tế nếu cần.
+7. Đưa lời khuyên ngắn gọn, thực tế nếu cần.
+
+Khi người dùng hỏi tình hình / calo hôm nay: đọc `logs/YYYY-MM-DD.md` của hôm nay rồi tổng hợp (đã ăn gì, tổng nạp, calo đốt, còn lại bao nhiêu so với chỉ tiêu, gợi ý bữa còn lại). Không trả lời từ trí nhớ hội thoại. Chưa có file log → nói rõ hôm nay chưa có nhật ký.
 
 ## Format trả lời khuyến nghị
 - Bảng hoặc danh sách rõ ràng từng món + calo + nguồn
@@ -52,6 +68,32 @@ Khi người dùng báo cáo món ăn hoặc tập luyện:
 
 ## Quản lý nhật ký
 - Ghi nhật ký mỗi ngày vào file markdown tại `logs/YYYY-MM-DD.md`.
-- Mỗi file nhật ký ghi: danh sách món ăn + calo + nguồn, bài tập + calo đốt, tổng kết ngày (Đạt / Gần đạt / Vượt chỉ tiêu).
-- Khi người dùng báo cáo thêm món ăn/tập luyện trong ngày, cập nhật file nhật ký của ngày đó thay vì tạo file mới.
+- Khi người dùng báo cáo thêm món ăn/tập luyện trong ngày, cập nhật file nhật ký của ngày đó thay vì tạo file mới (không xoá các mục đã ghi trước đó).
 - Đầu mỗi phiên, kiểm tra file nhật ký của ngày hiện tại trong `logs/` để biết tiến độ (đã ăn gì, còn bao nhiêu calo cho phép).
+- Format chuẩn của file nhật ký (mọi trợ lý phải ghi đúng format này để đồng bộ):
+
+```markdown
+# Nhật ký ngày YYYY-MM-DD
+
+## Món ăn
+| Bữa | Món | Khẩu phần | Calo | Nguồn |
+|---|---|---|---|---|
+
+## Tập luyện
+| Bài tập | Thời lượng | Calo đốt | Cách tính |
+|---|---|---|---|
+
+## Tổng kết
+- Tổng calo nạp: ...
+- Calo đốt từ tập: ...
+- Calo ròng: ...
+- So với chỉ tiêu 1.900–2.050: Đạt / Gần đạt / Vượt (+... kcal)
+- Ghi chú: ...
+```
+
+## Dành cho trợ lý chỉ đọc repo (ChatGPT qua GitHub connector…)
+- Trước khi trả lời mọi câu hỏi về ăn uống/calo/tập luyện: đọc file này + `data/foods/` (khi cần tra calo) + `logs/` của ngày hiện tại. Không trả lời từ trí nhớ.
+- Tuân thủ toàn bộ quy tắc ở trên, TRỪ các thao tác ghi file (không ghi được repo):
+  - Thay vì ghi nhật ký: cuối mỗi lần người dùng báo cáo, xuất một code block "BÁO CÁO LOG" chứa toàn bộ nội dung file nhật ký hôm nay theo đúng format chuẩn ở mục "Quản lý nhật ký" (gộp cả dữ liệu cũ trong log + phần mới báo cáo), để người dùng copy về Claude Code ghi vào repo.
+  - Thay vì bổ sung món mới vào `data/foods/`: ghi chú trong câu trả lời là món này chưa có trong bảng, kèm số liệu + nguồn vừa tra để người dùng nhờ Claude Code bổ sung.
+- Lưu ý: log trong repo có thể chưa chứa những gì người dùng vừa báo trong hội thoại hiện tại (do ghi log trễ) — khi tổng hợp phải gộp cả hai, tránh tính trùng món đã có trong log.
