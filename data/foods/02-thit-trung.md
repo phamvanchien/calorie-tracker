@@ -8,7 +8,7 @@
 | Thịt ba chỉ heo (luộc) | ~260 (nhiều mỡ: 350–420) | 3–4 lát ~100g | ~260 | Bowtie/Lemon8 tổng hợp nguồn VN; USDA: ba chỉ sống 518 kcal/100g |
 | Sườn heo (đã nấu) | 255–350 | 2–3 miếng sườn ~100g | 255–350 | USDA (sườn lưng nạc, nướng: 255 kcal); Long Châu/Elipsport: sườn nướng ~350, sườn xào chua ngọt ~370 |
 | Thịt bò nạc | 142 (sống) / ~180–250 (chín, tuỳ cách nấu) | 1 khẩu phần ~100g | ~180–250 | Hello Bacsi, Long Châu: 142 kcal/100g sống; USDA: bò xay 15% mỡ nướng chín 250 kcal |
-| Gầu bò (chín) | 155–290 | 1 phần lẩu/phở ~50g | ~80–145 | Long Châu/Bazaar VN: ức bò ~155 kcal; USDA: brisket flat half (cả nạc + mỡ 1/8"), om chín: 289 kcal — tuỳ tỷ lệ mỡ |
+| Gầu bò (chín) | 155–290 | 1 phần lẩu/phở ~50g | ~80–145 | Long Châu/Bazaar VN: ức bò ~155 kcal; USDA: brisket flat half (cả nạc + mỡ 1/8\"), om chín: 289 kcal — tuỳ tỷ lệ mỡ |
 | Ức gà không da (nấu chín) | 165 | 1 ức ~170g | ~280 | USDA qua Medical News Today (fdc.nal.usda.gov) |
 | Ức gà có da (nướng) | 197 | 1 ức ~200g | ~395 | USDA qua Medical News Today |
 | Đùi gà không da (nướng) | 209–213 | 1 đùi ~90g | ~190 | USDA (myfooddata.com/nutrition-facts/173625) |
@@ -31,6 +31,7 @@
 | Gà rán KFC (Original Recipe) | — | 1 đùi góc tư (thigh) | 280 | FatSecret (dữ liệu KFC chính thức) |
 | Gà rán KFC (Original Recipe) | — | 1 chân/tỏi gà (drumstick) | 130 | FatSecret/Nutritionix (dữ liệu KFC) |
 | Gà rán KFC (Original Recipe) | — | 1 ức (breast) | 390 | FatSecret/CalorieKing (dữ liệu KFC) |
+| **Thịt gà chiên không xương (thịt gà, nấu chín, chiên)** | **219** | **~100g** | **~219** | **USDA FoodData Central, FDC 171053 (qua MyFoodData)** |
 | Thịt kho tàu | ~166 | 1 miếng + nước kho (~khẩu phần trung bình) | ~240 | Long Châu, Elipsport (1 bát đầy ~300g: ~440 kcal) |
 
 ## Ghi chú
