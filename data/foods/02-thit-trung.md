@@ -1,6 +1,6 @@
 # Nhóm 2: Thịt & Trứng
 
-> Cập nhật: 2026-09-04. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN).
+> Cập nhật: 2026-09-08. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN).
 
 | Thực phẩm | Calo /100g | Khẩu phần thông dụng | Calo /khẩu phần | Nguồn |
 |---|---|---|---|---|
@@ -32,12 +32,13 @@
 | Gà rán KFC (Original Recipe) | — | 1 chân/tỏi gà (drumstick) | 130 | FatSecret/Nutritionix (dữ liệu KFC) |
 | Gà rán KFC (Original Recipe) | — | 1 ức (breast) | 390 | FatSecret/CalorieKing (dữ liệu KFC) |
 | **Thịt gà chiên không xương (thịt gà, nấu chín, chiên)** | **219** | **~100g** | **~219** | **USDA FoodData Central, FDC 171053 (qua MyFoodData)** |
+| **Thịt gà ram/kho** | **200–250** | **100g** | **200–250** | **MeMart: gà kho ~200–250 kcal/100g; đối chiếu USDA/nguồn nội bộ: ức gà chín không da 165 kcal/100g; dầu/đường/nước kho làm tăng năng lượng** |
 | Thịt kho tàu | ~166 | 1 miếng + nước kho (~khẩu phần trung bình) | ~240 | Long Châu, Elipsport (1 bát đầy ~300g: ~440 kcal) |
 
 ## Ghi chú
 
 - **Trạng thái chế biến rất quan trọng**: cùng 100g thịt, chiên/rán cộng thêm khoảng 50–120 kcal từ dầu mỡ so với luộc/hấp. Số liệu trong bảng ưu tiên dạng nấu chín phổ biến (luộc/nướng), trừ khi ghi rõ.
-- **Da gà/vịt tăng calo đáng kể**: ức gà có da nhiều hơn không da ~30 kcal/100g, cánh gà có da nhiều hơn ~85 kcal/100g, vịt có da nhiều hơn ~135 kcal/100g. Bỏ da là cách giảm calo dễ nhất khi ăn gia cầm.
+- **Da gà/vịt tăng calo đáng kể**: ức gà có da nhiều hơn không da ~30 kcal/100g, cánh gà có da nhiều hơn ~85 kcal/100g, vịt có da nhiều hơn ~135 kcal/100g. Bỏ da là cách giảm calo dễ nhất khi giảm cân.
 - **Ba chỉ và gầu bò dao động mạnh** theo tỷ lệ nạc/mỡ của từng miếng — miếng ba chỉ 50–60% mỡ có thể vượt 400 kcal/100g. Khi báo cáo, nên mô tả miếng thịt nạc hay mỡ để tính sát hơn.
 - **Chả lụa lệch nguồn lớn** (136 vs 230 kcal/100g) do công thức khác nhau (tỷ lệ mỡ, bột); chả quế có thể tới ~386 kcal/100g. Nên tính theo khoảng.
 - **Gà rán KFC** tính theo miếng (đã gồm bột chiên + dầu), không tính theo 100g. Loại giòn cay (Hot & Spicy/Extra Crispy) thường cao hơn Original Recipe ~10–20%.
