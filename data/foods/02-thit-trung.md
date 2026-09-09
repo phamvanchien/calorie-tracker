@@ -1,6 +1,6 @@
 # Nhóm 2: Thịt & Trứng
 
-> Cập nhật: 2026-09-08. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN).
+> Cập nhật: 2026-09-09. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN), Nutrition Center CTAHR University of Hawaiʻi và SnapCalorie.
 
 | Thực phẩm | Calo /100g | Khẩu phần thông dụng | Calo /khẩu phần | Nguồn |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | Trứng vịt lộn | ~182 | 1 quả ~75–90g | 180–200 | Hello Bacsi, Long Châu, Bệnh viện Thu Cúc |
 | Trứng cút (luộc) | 158 | 1 quả ~11g | ~17 | USDA qua Wikipedia/kcalmate (dữ liệu USDA) |
 | Thịt heo quay | ~256 (dao động 250–400 tuỳ da/mỡ) | 3–4 miếng ~100g | ~256+ | Bazaar VN/Pharmacity (tổng hợp nguồn VN) |
+| **Thịt xá xíu (heo, chín)** | **230–280** | **100g** | **230–280** | **Nutrition Center CTAHR University of Hawaiʻi: 28 kcal/10g (=280 kcal/100g); SnapCalorie: 246 kcal/100g** |
 | Gà rán KFC (Original Recipe) | — | 1 đùi góc tư (thigh) | 280 | FatSecret (dữ liệu KFC chính thức) |
 | Gà rán KFC (Original Recipe) | — | 1 chân/tỏi gà (drumstick) | 130 | FatSecret/Nutritionix (dữ liệu KFC) |
 | Gà rán KFC (Original Recipe) | — | 1 ức (breast) | 390 | FatSecret/CalorieKing (dữ liệu KFC) |
@@ -43,4 +44,5 @@
 - **Chả lụa lệch nguồn lớn** (136 vs 230 kcal/100g) do công thức khác nhau (tỷ lệ mỡ, bột); chả quế có thể tới ~386 kcal/100g. Nên tính theo khoảng.
 - **Gà rán KFC** tính theo miếng (đã gồm bột chiên + dầu), không tính theo 100g. Loại giòn cay (Hot & Spicy/Extra Crispy) thường cao hơn Original Recipe ~10–20%.
 - **Thịt kho tàu** calo phụ thuộc phần thịt (nạc vs ba chỉ), lượng nước màu/đường và có kèm trứng hay không; 1 quả trứng kho kèm cộng thêm ~78 kcal (trứng gà) hoặc ~130 kcal (trứng vịt).
-- Nguồn chính: USDA FoodData Central (https://fdc.nal.usda.gov/) cho thịt/trứng cơ bản; Nhà thuốc Long Châu (nhathuoclongchau.com.vn), Pharmacity (pharmacity.vn), Hello Bacsi (hellobacsi.com) cho món Việt.
+- **Thịt xá xíu** dao động theo tỷ lệ nạc/mỡ và lượng đường/xốt. Nguồn CTAHR ghi 28 kcal/10g, tương đương 280 kcal/100g; SnapCalorie ghi 246 kcal/100g. Dùng khoảng 230–280 kcal/100g khi không có nhãn/công thức cụ thể.
+- Nguồn chính: USDA FoodData Central (https://fdc.nal.usda.gov/) cho thịt/trứng cơ bản; Nhà thuốc Long Châu (nhathuoclongchau.com.vn), Pharmacity (pharmacity.vn), Hello Bacsi (hellobacsi.com) cho món Việt; Nutrition Center CTAHR University of Hawaiʻi (https://nutritioncenter.ctahr.hawaii.edu/char-siu-pork) và SnapCalorie (https://www.snapcalorie.com/nutrition/char_siu_pork_nutrition.html) cho char siu pork.
