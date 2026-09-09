@@ -1,6 +1,6 @@
 # Nhóm 1: Tinh bột & Ngũ cốc
 
-> Cập nhật: 2026-09-04. Dữ liệu tra cứu từ USDA FoodData Central, Hello Bacsi, Nhà thuốc Long Châu, Medlatec và các nguồn Việt Nam đáng tin cậy. Mọi con số đều được tra cứu trực tiếp trong phiên, không tự ước đoán.
+> Cập nhật: 2026-09-09. Dữ liệu tra cứu từ USDA FoodData Central, Hello Bacsi, Nhà thuốc Long Châu, Medlatec và các nguồn Việt Nam đáng tin cậy. Mọi con số đều được tra cứu trực tiếp trong phiên, không tự ước đoán.
 
 | Thực phẩm | Calo /100g | Khẩu phần thông dụng | Calo /khẩu phần | Nguồn |
 |---|---|---|---|---|
@@ -13,8 +13,9 @@
 | Bánh mì sandwich (trắng) | ~265–270 kcal | 1 lát (~26g) | ~70 kcal | [USDA Branded/MyFoodData](https://tools.myfooddata.com/nutrition-facts/1250269/wt1) |
 | Bún tươi | 100–110 kcal | 1 tô bún (~200g bún) | ~200–220 kcal | [Hello Bacsi](https://hellobacsi.com/an-uong-lanh-manh/che-do-an-kieng-va-quan-ly-can-nang/bun-bao-nhieu-calo/), [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/giai-dap-bun-tuoi-bao-nhieu-calo-an-bun-tuoi-co-beo-khong-70608.html) |
 | Bánh phở tươi | 120–123 kcal | 1 tô phở (~200g bánh phở) | ~240–250 kcal | [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/pho-bao-nhieu-calo-bi-quyet-an-pho-khong-lo-tang-can-70657.html) |
-| Miến dong (khô) | 332–351 kcal | 1 phần khô (~50g) | ~165–175 kcal | [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/mien-dong-bao-nhieu-calo-cach-an-mien-dong-de-giam-can-70612.html), [Pharmacity](https://www.pharmacity.vn/mien-dong-bao-nhieu-calo-bi-quyet-an-mien-dong-giam-can-hieu-qua.htm) |
+| Miến dong (khô) | 332–351 kcal | 1 phần khô (~50g) | ~165–175 kcal | [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/mien-dong-bao-nhieu-calo-cach-an-mien-dong-de-giam-can-70612.html), [Pharmacity](https://www.pharmacity.vn/mien-dong-bao-nhieu-calo-bi-quyet-mien-dong-giam-can-hieu-qua.htm) |
 | Mì tôm / mì ăn liền | ~430–470 kcal | 1 gói (~75g, cả gia vị) | ~300–350 kcal | [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/an-mi-tom-co-beo-khong-60111.html), [Bazaar Việt Nam](https://bazaarvietnam.vn/1-goi-mi-bao-nhieu-calo/) |
+| Mì Cung Đình Cool (Micoem) | — | 1 ly 70g | 400–420 kcal | Người dùng cung cấp mức calo tham khảo từ sản phẩm; ảnh bao bì xác nhận sản phẩm Micoem, mã vạch 8936010680999. Chưa tìm được bảng dinh dưỡng chính thức công khai của đúng sản phẩm để đối chiếu. |
 | Mì trứng (khô) | 260–280 kcal (*) | 1 vắt (~60–70g) | ~180–200 kcal | [Long Châu](https://nhathuoclongchau.com.vn/bai-viet/1-vat-mi-trung-bao-nhieu-calo-tac-dong-cua-mi-trung-voi-suc-khoe-va-cach-an-hop-ly.html), [Bách hóa Xanh](https://www.bachhoaxanh.com/kinh-nghiem-hay/mi-trung-mi-soi-mi-xao-bao-nhieu-calo-an-mi-thuong-xuyen-co-map-khong-1388732) |
 | Nui / pasta (luộc chín) | ~158 kcal | 1 đĩa (~200g chín) | ~315 kcal | [USDA/FatSecret](https://foods.fatsecret.com/calories-nutrition/usda/spaghetti-(protein-fortified-enriched-cooked)?portionid=62520&portionamount=100.000), [MyFoodData](https://tools.myfooddata.com/nutrition-facts/45002/wt1) |
 | Khoai lang (luộc) | 76–86 kcal | 1 củ vừa (~150g) | ~115–130 kcal | [USDA/MyFoodData](https://tools.myfooddata.com/nutrition-facts/168484/wt1), [Hello Bacsi](https://hellobacsi.com/community/kiem-soat-can-nang/100g-khoai-lang-luoc-bao-nhieu-calo-co-phu-hop-cho-nguoi-an-kieng-giam-can-khong-190071/) |
@@ -31,6 +32,7 @@
 - **Xôi nhiều calo hơn cơm đáng kể**: gạo nếp đặc, ít nước hơn cơm tẻ, lại thường kèm mỡ hành, đậu, dừa, ruốc. 1 phần xôi sáng thông thường ~400–600 kcal — gần bằng 2–3 chén cơm. Nên hạn chế khi đang giảm cân.
 - **(*) Xôi đậu xanh**: con số ~500 kcal/100g của Long Châu có vẻ đã bao gồm topping và có thể sát mức "1 phần" hơn là 100g thuần; thực tế xôi đậu xanh không mỡ hành dao động ~350–450 kcal/phần. Khi báo cáo món này nên hỏi rõ có mỡ hành/dừa/ruốc không.
 - **Mì tôm tính cả gói gia vị (có gói dầu)**: 1 gói 75g loại Hảo Hảo ~350 kcal. Nếu bỏ gói dầu, giảm được ~50–70 kcal. Mì ly/mì trộn lớn hơn có thể 400–500 kcal/gói.
+- **Mì Cung Đình Cool 70g**: hiện lưu mức 400–420 kcal theo thông tin người dùng cung cấp; chưa có nguồn dinh dưỡng chính thức công khai để xác nhận độc lập.
 - **(*) Mì trứng**: nguồn Việt Nam ghi 260–280 kcal/100g khô, thấp hơn mức thường thấy của mì trứng khô quốc tế (~370–390 kcal/100g theo USDA). Nên tính theo vắt (~180–200 kcal/vắt) cho an toàn và ghi khoảng dao động.
 - **(*) Cháo trắng**: calo phụ thuộc mạnh vào độ đặc (tỷ lệ gạo:nước). Cháo loãng ~65–80 kcal/100g; bài Long Châu ghi 1 bát 250–330 kcal là ứng với cháo đặc/bát lớn. Khi ghi nhật ký nên hỏi cháo đặc hay loãng.
 - **Bún/bánh phở tươi ít calo hơn cơm** trên cùng 100g (do ngậm nước nhiều), nhưng calo của 1 tô bún/phở hoàn chỉnh chủ yếu đến từ nước dùng + thịt + chả, không phải từ sợi bún/phở.
