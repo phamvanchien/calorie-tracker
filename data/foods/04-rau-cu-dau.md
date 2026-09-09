@@ -1,6 +1,6 @@
 # Nhóm 4: Rau củ & Đậu
 
-> Cập nhật: 2026-09-04. Dữ liệu tra cứu từ USDA FoodData Central, Vinmec, Hello Bacsi, Nhà thuốc Long Châu (FPT), FDA.
+> Cập nhật: 2026-09-09. Dữ liệu tra cứu từ USDA FoodData Central, Vinmec, Hello Bacsi, Nhà thuốc Long Châu (FPT), FDA.
 
 ## Rau lá xanh
 
@@ -17,6 +17,7 @@
 | Rau dền (luộc) | ~23 | 1 dĩa ~150g | ~35 | Long Châu (23), khớp USDA amaranth leaves |
 | Mồng tơi | ~14 | 1 bát canh ~100g rau | ~14–20 | Nguồn VN (Long Châu/FPT) |
 | Rau xà lách | 14–15 | 1 dĩa ~50g | ~7–8 | FDA (15/85g), Long Châu (15) |
+| Rau má (tươi) | ~20 | 100g | ~20 | Medlatec (2025): https://medlatec.vn/tin-tuc/uong-rau-ma-co-giam-can-khong-nhung-luu-y-khi-giam-can-bang-rau-ma |
 
 ## Củ, quả, nấm
 
