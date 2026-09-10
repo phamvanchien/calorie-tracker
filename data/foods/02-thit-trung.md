@@ -1,6 +1,6 @@
 # Nhóm 2: Thịt & Trứng
 
-> Cập nhật: 2026-09-09. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN), Nutrition Center CTAHR University of Hawaiʻi và SnapCalorie.
+> Cập nhật: 2026-09-10. Dữ liệu tra cứu từ USDA FoodData Central, Nhà thuốc Long Châu, Pharmacity, Nhà thuốc An Khang, Hello Bacsi, FatSecret (dữ liệu USDA), FPT Shop/bTaskee (tổng hợp nguồn dinh dưỡng VN), Nutrition Center CTAHR University of Hawaiʻi và SnapCalorie.
 
 | Thực phẩm | Calo /100g | Khẩu phần thông dụng | Calo /khẩu phần | Nguồn |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@
 | Nem chua | 130–180 | 1 cái ~30g | ~40–55 | Long Châu/ana.edu.vn: ~137 kcal/100g; nem chua rán ~150 kcal/100g |
 | Lạp xưởng | 300–400 (tươi ~340, chiên ~356) | 1 cây ~50g | ~170–200 | Long Châu, Pharmacity, Bách Hoá Xanh (dẫn USDA) |
 | Trứng gà (luộc) | 155 | 1 quả ~50g | ~78 | USDA (hard-boiled egg — fdc.nal.usda.gov qua FatSecret) |
+| **Trứng gà chiên** | **~200–240** | **1 quả lớn** | **~90–110** | **Nhà thuốc An Khang: 1 quả trứng gà chiên ~110 kcal; FatSecret/USDA: 1 quả lớn ~92 kcal** |
 | Trứng vịt (luộc) | 185 | 1 quả ~70g | ~130 | USDA (duck egg, whole — myfooddata.com/nutrition-facts/172189) |
 | Trứng vịt lộn | ~182 | 1 quả ~75–90g | 180–200 | Hello Bacsi, Long Châu, Bệnh viện Thu Cúc |
 | Trứng cút (luộc) | 158 | 1 quả ~11g | ~17 | USDA qua Wikipedia/kcalmate (dữ liệu USDA) |
@@ -45,4 +46,4 @@
 - **Gà rán KFC** tính theo miếng (đã gồm bột chiên + dầu), không tính theo 100g. Loại giòn cay (Hot & Spicy/Extra Crispy) thường cao hơn Original Recipe ~10–20%.
 - **Thịt kho tàu** calo phụ thuộc phần thịt (nạc vs ba chỉ), lượng nước màu/đường và có kèm trứng hay không; 1 quả trứng kho kèm cộng thêm ~78 kcal (trứng gà) hoặc ~130 kcal (trứng vịt).
 - **Thịt xá xíu** dao động theo tỷ lệ nạc/mỡ và lượng đường/xốt. Nguồn CTAHR ghi 28 kcal/10g, tương đương 280 kcal/100g; SnapCalorie ghi 246 kcal/100g. Dùng khoảng 230–280 kcal/100g khi không có nhãn/công thức cụ thể.
-- Nguồn chính: USDA FoodData Central (https://fdc.nal.usda.gov/) cho thịt/trứng cơ bản; Nhà thuốc Long Châu (nhathuoclongchau.com.vn), Pharmacity (pharmacity.vn), Hello Bacsi (hellobacsi.com) cho món Việt; Nutrition Center CTAHR University of Hawaiʻi (https://nutritioncenter.ctahr.hawaii.edu/char-siu-pork) và SnapCalorie (https://www.snapcalorie.com/nutrition/char_siu_pork_nutrition.html) cho char siu pork.
+- Nguồn chính: USDA FoodData Central (https://fdc.nal.usda.gov/) cho thịt/trứng cơ bản; Nhà thuốc Long Châu (nhathuoclongchau.com.vn), Pharmacity (pharmacity.vn), Nhà thuốc An Khang (nhathuocankhang.com), Hello Bacsi (hellobacsi.com) cho món Việt; Nutrition Center CTAHR University of Hawaiʻi (https://nutritioncenter.ctahr.hawaii.edu/char-siu-pork) và SnapCalorie (https://www.snapcalorie.com/nutrition/char_siu_pork_nutrition.html) cho char siu pork.
